@@ -60,5 +60,20 @@ public class Persona {
     public void setEliminado(boolean eliminado) {
         this.eliminado = eliminado;
     }
+     
+    /**
+     * El Metodo toString() nos permite imprimir los valores asignados
+     * a mi objeto, BASICAMENTE imprimir cada atributo que
+     * agreguemos a toString()
+     */
+
+    public String toString(){
+        return "\nAtributos del objeto:\n"+
+                "{ "+
+                "nombre: "+this.nombre+", "+
+                "sueldo: "+this.sueldo+", "+
+                "eliminado: "+this.eliminado+
+                " }";
+    }
 
 }

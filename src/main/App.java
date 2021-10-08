@@ -47,7 +47,17 @@ public class App {
          *
          */
 
-    
+        /**
+         * Imprimimos el metodo toString() para saber el estado
+         * de los atributos del objeto  
+         */
+        // Llamamos el metodo toString
+        String toString = miPersona.toString();
+        System.out.println(toString);
+
+        // Asi tambien se puede llamar el metodo toString 
+        // Ya que se llama automatico por el 'print' ó 'println'
+        System.out.println(miPersona);
 
     }
 }
